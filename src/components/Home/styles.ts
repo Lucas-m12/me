@@ -13,6 +13,8 @@ export const Header = styled.header`
 	margin: 0 auto;
 	border-radius: 0 0 8px 8px;
 	background: ${({theme}) => theme.colors.background.primary.paper};
+	position: sticky;
+	top: 0;
 
 	display: flex;
 `;
@@ -40,7 +42,9 @@ export const Menu = styled.nav`
 			border-radius: 2px;
 			width: 10%;
 
-			& button {
+			& a {
+				text-decoration: none;
+				cursor: pointer;
 				background: transparent;
 				color: ${({theme}) => theme.colors.font.tertiary};
 				transition: color 0.2s ease-in;

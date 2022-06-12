@@ -7,29 +7,37 @@ import { Container, Content, DescriptionArea, Header, Menu, WorkedArea } from '.
 export const HomeComponent: React.FC = () => {
 
 	return (
-		<Container>
+		<Container id='home'>
 			<Header>
 				<Menu>
 					<ul>
 						<li>
-							<button>
-								Ínicio
-							</button>
+							<Link href='/#home'>
+								<a href='/#home'>
+									Ínicio
+								</a>
+							</Link>
 						</li>
 						<li>
-							<button>
-								Depoimentos
-							</button>
+							<Link href=''>
+								<a href=''>
+									Trabalhos
+								</a>
+							</Link>
 						</li>
 						<li>
-							<button>
-								Trabalhos
-							</button>
+							<Link href='/#testimonials'>
+								<a href='/#testimonials'>
+									Depoimentos
+								</a>
+							</Link>
 						</li>
 						<li>
-							<button>
-								Entrar em contato
-							</button>
+							<Link href=''>
+								<a href=''>
+									Entrar em contato
+								</a>
+							</Link>
 						</li>
 					</ul>
 					<div>
