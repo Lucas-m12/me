@@ -1,0 +1,22 @@
+[
+	{
+		"name": "React JS",
+		"logo": "/react.svg"
+	},
+	{
+		"name": "Node JS",
+		"logo": "/node.svg"
+	},
+	{
+		"name": "React Native",
+		"logo": "/react-native.svg"
+	},
+	{
+		"name": "HTML 5",
+		"logo": "/html.svg"
+	},
+	{
+		"name": "CSS 3",
+		"logo": "/css.svg"
+	}
+]

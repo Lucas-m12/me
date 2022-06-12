@@ -29,8 +29,10 @@ export default class MyDocument extends Document {
 				<Head>
 					<title>Lucas Marinho</title>
 					<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-					<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" />
-					<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+					<link rel="preconnect" href="https://fonts.googleapis.com" />
+					<link rel="preconnect" href="https://fonts.gstatic.com" />
+					<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+					<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
 				</Head>
 				<body>
 					<Main />
